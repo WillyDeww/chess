@@ -50,3 +50,18 @@ button{
  cursor: pointer;
  transition: all 0.3s ease;
 }
+
+button:hover{
+  background-color: #434343;
+}
+
+.move-history{
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  width: 400px;
+  overflow-y: scroll;
+  background-color: #f2f2f2;
+}
